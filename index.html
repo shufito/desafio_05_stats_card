@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main
+      class="flex min-h-screen flex-col items-center justify-center bg-DarkBlue"
+    >
+      <div
+        class="my-6 flex w-3/4 flex-col-reverse justify-center overflow-hidden rounded-lg bg-DesaturatedBlue md:my-0 md:flex-row"
+      >
+        <div
+          class="flex w-full basis-1/2 flex-col items-center justify-evenly px-5 py-5 text-center font-Inter text-white md:pl-20 md:pr-24 md:text-left"
+        >
+          <div>
+            <h1 class="text-3xl font-bold">
+              Get <span class="text-SoftViolet">insights</span> that help your
+              business grow.
+            </h1>
+            <p class="mb-12 mt-6 text-sm font-normal text-white/75">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <div
+            class="flex w-full flex-col items-center gap-6 text-center uppercase md:flex-row md:justify-between md:text-left"
+          >
+            <div>
+              <h2 class="mb-1 text-xl font-bold">10k+</h2>
+              <p class="text-xs text-white/60">companies</p>
+            </div>
+            <div>
+              <h2 class="mb-1 text-xl font-bold">314</h2>
+              <p class="text-xs text-white/60">templates</p>
+            </div>
+            <div>
+              <h2 class="mb-1 text-xl font-bold">12m+</h2>
+              <p class="text-xs text-white/60">queries</p>
+            </div>
+          </div>
+        </div>
+        <div class="relative w-full basis-1/2 md:shrink-0">
+          <div
+            class="absolute left-0 top-0 m-auto h-full w-full bg-SoftViolet"
+          ></div>
+          <img
+            src="./images/image-header-desktop.jpg"
+            alt="Imagem de pessoas trabalhando"
+            class="invisible hidden h-full w-full object-cover opacity-75 mix-blend-multiply md:visible md:block"
+          />
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt="Imagem de pessoas trabalhando"
+            class="visible block h-full w-full object-cover opacity-75 mix-blend-multiply md:invisible md:hidden"
+          />
+        </div>
+      </div>
+      <div class="mb-2 text-xs text-white/50 md:mt-2">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/shufito"
+          target="_blank"
+          class="underline hover:text-white"
+          >João Victor</a
+        >.
+      </div>
+    </main>
+  </body>
+</html>
